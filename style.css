@@ -14,7 +14,12 @@ nav {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 55px;
-  
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 ul {
@@ -46,7 +51,7 @@ h1 {
 
   font-weight: 400;
 
-  width: 490px
+  width: 490px; 
 }
 
 h1 span {
@@ -54,10 +59,12 @@ h1 span {
   font-weight: 700;
 }
 
-p {
+section p {
   font-size: 14px;
   line-height: 28px;
-  color: #7D7987
+  color: #7D7987;
+
+  margin: 40px 0;
 }
 
 button {
@@ -69,6 +76,9 @@ button {
 footer {
   font-size: 14px;
   line-height: 28px;
+
+  text-align: center;
+  margin-top: 80px;
 }
 
 footer a {
